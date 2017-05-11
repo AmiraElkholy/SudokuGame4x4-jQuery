@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sudoku Game 4X4</title>
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="game-script.js"></script>
+</head>
+<body>
+	<div class="main-container">
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="4" class="timer">
+					<span id="timer">Timer</span>
+				</td>
+			</tr>
+		</table>
+		<input id="btnFinish" type="button" value="Finish">
+		<p class="name">Amira Elkholy</p>
+	</div>
+
+	<div class="modal">
+		<div class="content">
+			<p class="modalMessage"></p>
+			<hr>
+			<p>Do you wish to play again?!</p>
+			<input id="ok" type="button" name="Ok" value="ok">
+			<input id="cancel" type="button" name="Cancel" value="cancel">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/lightbox.min.js" data-lightbox="image-1"></script>
+</body>
+</html>
